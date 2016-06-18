@@ -8,7 +8,12 @@
   - oh-my-zsh
   - tmux
 
-Default command after creating container is:
+###Volume(Mount)
+```
+/data
+```
+
+##CMD
 ```
 tmux
 ```
