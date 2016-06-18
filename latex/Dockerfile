@@ -11,7 +11,3 @@ RUN apt-get install -qqy \
 # Cleanup
 RUN apt-get clean -q
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-VOLUME ["/data"]
-WORKDIR /data
-CMD tmux

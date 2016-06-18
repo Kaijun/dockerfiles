@@ -1,13 +1,11 @@
-# flavored-base
+# latex
 
-> My personal flavored base image
+> base latex image on the top of flavored-base
 
-### Utils:
-  - sudo, curl
-  - git
-  - oh-my-zsh
-  - tmux
-
+### Tools:
+    - texlive-full
+    - python-pygments 
+    - gnuplot
 Default command after creating container is:
 ```
 tmux
