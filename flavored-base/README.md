@@ -8,7 +8,7 @@
   - oh-my-zsh
   - tmux
 
-###Volume(Mount)
+###Default Volume & Workdir
 ```
 /data
 ```
