@@ -2,8 +2,8 @@
 
 > A Dockerfile for Front-End Develop Environment
 
-### Inheritance 
-Check [flavored-base](https://github.com/Kaijun/dockerfiles/tree/master/flavored-base) image
+### Base
+All features will be inherited from image [**flavored-base**](https://github.com/Kaijun/dockerfiles/tree/master/flavored-base)!
 
 ### Environment:
   - NodeJS v6.x
