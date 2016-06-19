@@ -7,5 +7,3 @@ RUN apt-get install -qqy nodejs
 # Cleanup
 RUN apt-get clean -q
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-CMD tmux
