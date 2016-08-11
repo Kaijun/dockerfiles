@@ -11,6 +11,7 @@ RUN apt-get install -qqy \
 # oh-my-zsh
 RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" || true
 RUN sed -i -E "s/^plugins=\((.*)\)$/plugins=(\1 tmux)/" ~/.zshrc
+RUN echo "DISABLE_UPDATE_PROMPT=true" >> ~/.zshrc
 RUN chsh -s /bin/zsh
 
 # TMUX
