@@ -20,6 +20,6 @@ RUN echo 'set -g mouse on' >> ~/.tmux.conf
 RUN apt-get clean -q
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-VOLUME ["/data"]
-WORKDIR /data
+VOLUME ["/root/mnt"]
+WORKDIR /root/mnt
 CMD tmux

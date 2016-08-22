@@ -10,7 +10,7 @@
 
 ###Default Volume & Workdir
 ```
-/data
+/root/mnt
 ```
 
 ##CMD
